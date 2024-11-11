@@ -1,0 +1,86 @@
+.container{
+    width :100%;
+    height:300px;
+}
+
+.horizontalContainer {
+    background-color: blueviolet;
+}
+
+.맨윗줄첫번째박스{
+    width: 30%;
+    float:left;
+    height: 100%;
+}
+
+.맨윗줄두번째박스{
+    
+    width: 40%;
+    float:left;
+    height: 100%;
+}
+.맨윗줄두번째박스정렬{
+    margin-left: 25%;
+    margin-top: 14%;
+    width:50%;
+    height:50%;
+    background-color: red;
+
+}
+.맨윗줄세번째박스{
+    
+    width: 30%;
+    float:left;
+    height: 100%;
+
+}
+.로그인버튼{
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+}
+.로그인버튼:hover{
+    background-color: rgb(193, 240, 121);
+
+}
+
+.horizontalContainer {
+    background-color: blueviolet;
+}
+.두번째박스{
+    width: 25%;
+    height: 300px;
+    float:left;
+}
+.두번째박스정렬{
+    border: 5px solid grey;
+    border-radius: 10px;
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    float:left;
+}
+.두번째박스정렬2{
+    border: 5px solid grey;
+    border-radius: 10px;
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    float:left;
+}
+.사진컨테이너{
+    width: 3000px;
+    height: 300px;
+}
+.사진슬라이드{
+    float:left;
+    height:300px;
+}
+.세번째박스{
+    border-radius: 15px;
+    border: 3px solid grey;
+    background-color: aqua;
+    width: 100%;
+    height: 1500px;
+    float:left;
+}

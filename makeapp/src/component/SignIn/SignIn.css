@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* 수직 방향으로 요소들을 정렬하기 위해 */
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 20px; /* 타이틀과 입력 폼 사이의 간격 조절 */
+}
+
+.form {
+    width: 300px;
+}
+
+#login-form > input {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    border: 1px solid #7DB249;
+    transition: border-color 0.3s ease;
+    outline: none;
+}
+
+#login-form > input:focus {
+    border-color: #5b8334;
+}
+
+#login-form > input::placeholder {
+    color: #9c9c9c;
+}
+
+#login-form > input[type="submit"] {
+    color: #fff;
+    font-size: 16px;
+    background-color: #7DB249;
+    margin-top: 20px;
+}
+
+#login-form > input[type="submit"]:hover {
+    background : #598033;
+}
+
+.signin {
+    text-align: center; /* 가운데 정렬 */
+    margin-top: 20px; /* 위쪽 간격 설정 */
+    color: #999999; /* 글자 색상 설정 */
+}

@@ -1,0 +1,32 @@
+.container{
+    width : 100%;
+    height : 400px;
+    display: inline-block;
+}
+.두번째줄마진{
+    margin-top: 1%;
+    margin-left: 15%;
+    width : 70%;
+    height : 90%;
+    background-color: aqua;
+}
+.두번째줄퀘스트{
+    width: 55%;
+    height:100%;
+    float:left;
+    background-color: blueviolet;
+
+}
+.두번째줄중간{
+    width: 5%;
+    height:100%;
+    float:left;
+    background-color: black;
+}
+.두번째줄프로필{
+    width: 40%;
+    height:100%;
+    float:left;
+    background-color: orange;
+
+}
